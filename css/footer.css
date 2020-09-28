@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+
+footer {
+  width: 1000px;
+  background-color: #eaeaea;
+  margin: auto;
+}
+
+.one {
+  width: 1000px;
+  height:50px;
+  display: flex;
+  border-bottom: solid 1px #b5dfdb;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.one div:first-of-type {
+  width:250px;
+  height:43px;
+  background-image: url("../img/ico_service.png");
+  background-repeat: no-repeat;
+  background-position: 8px 0px;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+.one div:nth-of-type(2) {
+  width:250px;
+  height:43px;
+  background-image: url("../img/ico_service.png");
+  background-repeat: no-repeat;
+  background-position: 8px -43px;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+.one div:nth-of-type(3) {
+  width:250px;
+  height:43px;
+  background-image: url("../img/ico_service.png");
+  background-repeat: no-repeat;
+  background-position: 8px -86px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.one div:nth-of-type(4) {
+  width:250px;
+  height:43px;
+  background-image: url("../img/ico_service.png");
+  background-repeat: no-repeat;
+  background-position: 8px -129px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.two {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: solid 1px #b5dfdb;
+}
+
+.two div h4{
+  font-size: 18px;
+  margin:10px 0;
+}
+.two div p{
+  color: #656565;
+  margin:10px 0;
+}
+.three {
+  margin:auto;
+}
+.three .up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0 10px 0;
+}
+.up div{
+  width:60px;
+  font-size: 13px;
+  color: #656565;
+  text-align: center;
+}
+.up div:nth-of-type(n+2){
+  border-left: solid 1px #ccc;
+}
+.down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #656565;
+  padding:10px;
+}

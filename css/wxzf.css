@@ -1,0 +1,10 @@
+section{
+  width:1000px;
+  margin: auto;
+  text-align: center;
+}
+section div:last-of-type{
+  height:300px;
+  font-size: 30px;
+  line-height: 250px;
+}

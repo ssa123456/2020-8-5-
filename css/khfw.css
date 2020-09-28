@@ -1,0 +1,98 @@
+section {
+  width: 1000px;
+  margin: auto;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(4,220px);
+  grid-template-rows: repeat(3,100px);
+  gap: 20px 5px;
+  margin:20px 0;
+}
+.one {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid 1px #CCC;
+  border-radius: 5px;
+  box-shadow: 1px 1px 9px #ccc;
+}
+.one i{
+  font-size: 50px;
+  color: #1bb51e;
+}
+.one div p:first-of-type{
+  font-size: 23px;
+  color:#ccc;
+  margin-bottom: 5px;
+}
+.one div p:last-of-type{
+  font-size: 15px;
+  margin-top: 5px;
+}
+.two {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid 1px #CCC;
+  border-radius: 5px;
+  box-shadow: 1px 1px 9px #ccc;
+}
+
+.two div p:first-of-type{
+  font-size: 23px;
+  color:#ccc;
+  margin-bottom: 5px;
+}
+.two div p:last-of-type{
+  font-size: 15px;
+  margin-top: 5px;
+}
+.two i{
+  font-size: 50px;
+  color: #51b0e6;
+}
+.three {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid 1px #CCC;
+  border-radius: 5px;
+  box-shadow: 1px 1px 9px #ccc;
+}
+
+.three div p:first-of-type{
+  font-size: 23px;
+  color:#ccc;
+  margin-bottom: 5px;
+}
+.three div p:last-of-type{
+  font-size: 15px;
+  margin-top: 5px;
+}
+.three i{
+  font-size: 50px;
+  color: #d32d31;
+}
+.four {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid 1px #CCC;
+  border-radius: 5px;
+  box-shadow: 1px 1px 9px #ccc;
+}
+
+.four div p:first-of-type{
+  font-size: 23px;
+  color:#ccc;
+  margin-bottom: 5px;
+}
+.four div p:last-of-type{
+  font-size: 15px;
+  margin-top: 5px;
+}
+.four i{
+  font-size: 50px;
+  color: #3b589b;
+}

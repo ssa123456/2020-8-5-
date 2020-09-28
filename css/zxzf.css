@@ -1,0 +1,24 @@
+section {
+  width:1000px;
+  margin:auto;
+  text-align: center;
+}
+section p{
+  font-size: 18px;
+}
+section div:last-of-type{
+  display: inline-block;
+  width:120px;
+  height:40px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #e13b41;
+  margin-bottom: 25px;
+}
+section div:last-of-type a{
+  color:white;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+}

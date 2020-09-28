@@ -1,0 +1,76 @@
+body{
+  background-color: #eee;
+}
+.con {
+  width:300px;
+  height:420px;
+  margin: auto;
+  padding: 20px;
+  line-height: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+h1{
+  text-align: center;
+}
+.con div {
+  font-size: 10px;
+}
+.con div:nth-of-type(5){
+  text-align: right;
+}
+.one {
+  display:flex;
+  width:300px;
+  border-bottom: solid 1px #ccc;
+}
+.one div{
+  font-size: 20px;
+  color:rgb(124, 124, 124);
+  width:20px;
+}
+.one label input{
+  font-size: 13px;
+  color:rgb(124, 124, 124);
+  border:0;
+  height:48px;
+}
+.con div:nth-of-type(6) input{
+  width:300px;
+  height:30px;
+  border:0;
+  border-radius: 20px;
+  background: -webkit-linear-gradient(0deg, #26d8dd, #f629fb);
+  color:white;
+  outline: none;
+}
+
+.con div:nth-of-type(7){
+  text-align: center;
+  margin-top: 30px;
+}
+.con div:nth-of-type(8){
+  font-size: 30px;
+  text-align: center;
+  color:white;
+}
+.con div:nth-of-type(8) i:first-of-type{
+  border-radius: 50%;
+  background-color: #3c5a96;
+}
+.con div:nth-of-type(8) i:nth-last-of-type(2){
+  border-radius: 50%;
+  background-color: #2aa3ef;
+}
+.con div:nth-of-type(8) i:last-of-type {
+  border-radius: 50%;
+  background-color: #e7453c;
+}
+.con div:last-of-type{
+  text-align: center;
+  margin-top: 13px;
+}
+.con div:last-of-type a{
+  text-decoration: none;
+  color: black;
+}
